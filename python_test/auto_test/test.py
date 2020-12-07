@@ -10,3 +10,4 @@ import urllib
 
 response = urllib.open("www.baidu.com")
 print(response)
+
