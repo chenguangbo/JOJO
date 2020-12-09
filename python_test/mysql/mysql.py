@@ -2,10 +2,10 @@
 # -*- coding: UTF-8 -*-
 import time
 
-import numpy as np
 import pymysql
+import numpy as np
 
-db = pymysql.connect("127.0.0.1", "root", "123456", "mysql", charset='utf8')
+db = pymysql.connect("127.0.0.1", "root", "root", "mysql", charset='utf8')
 sql = "select * from user;"
 # 使用cursor()方法获取操作游标
 cursor = db.cursor()
